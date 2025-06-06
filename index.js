@@ -1,0 +1,1 @@
+const getpokinfo = document.getElementById("getpokinfo")
