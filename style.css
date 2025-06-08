@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+@font-face {
+    font-family: 'pokemonlogo';
+    src: url(Pokemon\ Hollow.ttf);
+}
+@font-face {
+    font-family: 'ketchum';
+    src: url(Ketchum.otf);
+}
+
+#headicon {
+    background-color: rgb(242, 100, 100);
+    margin: auto;
+    text-align: center;
+    font-family: 'pokemonlogo';
+    border-bottom: 4px solid black;
+}
+
+nav {
+    font-family: 'ketchum';
+
+    font-size: 1.2rem;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li :hover {
+    background-color: rgb(205, 205, 205);
+}
+ul {
+    list-style: none; 
+}
