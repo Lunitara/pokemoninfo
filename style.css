@@ -20,7 +20,7 @@ body {
 
 nav {
     font-family: 'ketchum';
-
+    border-bottom: 3px solid rgb(201, 201, 201);
     font-size: 1.2rem;
 }
 ul {
@@ -39,4 +39,19 @@ li :hover {
 }
 ul {
     list-style: none; 
+}
+
+#pikpic {
+    padding-left: 10px;
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    font-size: 1.5rem;
+    padding-left: 100px;
 }
